@@ -1,2 +1,2 @@
-# Simple-Bot-Discord
+# Simple Bot Discord
 Bot Discord
