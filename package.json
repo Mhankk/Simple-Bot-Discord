@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+    "engines": {
+    "node": "12.x",
+    "npm": "*"
+  },
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "author": "Hieki Nakamura",
   "license": "MIT",
   "dependencies": {
@@ -20,7 +28,6 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "got": "^11.5.2",
-    "underscore": "^1.10.2",
     "ytdl-core": "^3.1.2"
   }
 }
