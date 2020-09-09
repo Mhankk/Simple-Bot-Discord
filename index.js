@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const config = require('dotenv');
+const config = require('./config.json');
 const bot = new Discord.Client();
 var ineed = require('ineed');
 const ytdl = require("ytdl-core");
