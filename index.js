@@ -8,7 +8,7 @@ const cheerio = require('cheerio');
 var request = require('request');
 
 //koneksi
-bot.login(config.token);
+bot.login(process.env.TOKEN);
 //notifikasi
 const activities_list = [
     "With loli", 
