@@ -345,6 +345,10 @@ bot.on("message" , function(message){
     }
     if (message.author.equals(bot.user)) return;
     if (message.mentions.has('557022050989113348')) {
-    message.reply('Tunggu Ya! Pak Keem-san akan segera membalas :)');
+    message.reply('Tunggu Ya! Pak Keem-san akan segera membalas :)')
+	     .then(msg => {
+    msg.delete({ timeout: 10000 })
+  })
+  .catch(console.error);
 }
 });
